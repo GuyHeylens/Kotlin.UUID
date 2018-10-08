@@ -1,7 +1,12 @@
 import java.util.*
 
-
-fun UUID.empty(): UUID {
-    return UUID(0,0)
+class UUID(){
+    fun UUID.empty(): java.util.UUID {
+        return UUID(
+                0,
+                0
+        )
+    }
 }
+
 
